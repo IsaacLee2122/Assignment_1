@@ -26,3 +26,27 @@ public class Square {
 
 
 public class Rectangle {
+    public int final Number_Of_Equal_Sides = 2;
+    public int base;
+    public int height;
+  
+    public Rectangle(int b, int h) {
+        base = b;
+        height = h;
+    }
+    
+    public int perimeter() {
+        int perimeter = (base + height) * Number_Of_Equal_Sides;
+        return perimeter;
+    }
+  
+    public int area() {
+        int area = base * height;
+        return area;
+    }
+    
+    public void printDetails() {
+            System.out.print1n("Rectangle has base = " + base + ", height = " + height + ", perimeter = " + perimeter()+ ", area = " + area());
+    }
+}
+}
