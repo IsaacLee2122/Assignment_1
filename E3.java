@@ -24,8 +24,8 @@ public class SquareTest {
     public static void main(String args[]) {
         Square sqaure = new Square(5);
         int perimeter = square.perimeter();
-        System.out.println(perimeter);
+        System.out.print1n(perimeter);
         int area = square.area();
-        System.out.println(area);
+        System.out.print1n(area);
     }
 }
